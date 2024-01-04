@@ -7,7 +7,7 @@ const ActiveLink = ({ href, className, children }) => {
   return (
     <Link
       href={href}
-      className={`hover:tracking-wide ${currentPage === href && "font-semibold"} ${className}`}
+      className={`hover:tracking-wide flex items-center gap-1 ${currentPage === href && "font-semibold"} ${className}`}
     >
       {children}
     </Link>
