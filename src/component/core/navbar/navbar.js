@@ -6,7 +6,7 @@ const Navbar = () => {
   const user = true;
   return (
     <>
-      <div className="bg-[#4C0203] text-slate-200">
+      <div className="bg-[#4C0203] text-base text-slate-200">
         <div className="container flex justify-between py-2 md:py-3">
           {/* logo */}
           <div>
