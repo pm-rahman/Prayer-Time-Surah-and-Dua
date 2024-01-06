@@ -20,13 +20,13 @@ const TinyNavbar = ({ user }) => {
         className={`
           ${
             isNavbarShow
-              ? "absolute w-screen h-screen overflow-hidden top-0 right-0 flex flex-col items-end cursor-pointer backdrop-brightness-75 bg-[rgba(76,2,3,.3)]"
+              ? "absolute z-50 w-screen h-screen overflow-hidden top-0 right-0 flex flex-col items-end cursor-pointer backdrop-brightness-75 bg-[rgba(76,2,3,.3)]"
               : "hidden"
           }
         `}
       >
         <div
-          className={`bg-slate-50 text-slate-900 border-2 border-[#4C0203] flex flex-col items-end w-1/2 h-full py-2 px-3`}
+          className={`bg-[#f9ecec] text-slate-900 border-2 border-[#4C0203] flex flex-col items-end w-1/2 h-full py-2 px-3`}
         >
           <ul className="flex flex-col gap-[1px] items-end">
             <li>
