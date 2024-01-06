@@ -1,6 +1,8 @@
 import Image from "next/image";
 import masjid from "@/assets/masjid.png";
 import sunset from "@/assets/sunset.jpg";
+import weekDay from "@/data/weekDayData";
+import yearData from "@/data/yearData";
 
 const namaz = [
   {
@@ -10,7 +12,7 @@ const namaz = [
   },
   {
     _id: 2,
-    name: "সূযোদয়",
+    name: "সূর্যোদয়",
     time: "৬:৪২",
   },
   {
@@ -35,9 +37,14 @@ const namaz = [
   },
 ];
 
-const Header = () => {
-  const todayDate = new Date().toISOString().slice(0, 10).split("-").reverse().join("-");
 
+const Header = ({monthIndex}) => {
+  const todayDayIndex = new Date().getDay();
+  const todayDate="01-01-2024"
+  // const 
+  // console.log(todayDate);
+  const todayData=yearData?.months[monthIndex]?.monthData?.map(month=>month.date===todayDate);
+  // console.log(todayData);
   return (
     <div className="mt-4">
       {/* top side */}
@@ -57,11 +64,15 @@ const Header = () => {
             alt="sunset image"
             width={1200}
             height={300}
-            className="w-full relative bottom-3 lg:bottom-12"
+            className="w-full h-full"
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-[rgba(76,2,3,.3)] flex justify-center items-center">
-            <h4 className="relative bottom-6 text-lg font-semibold">
-              তারিখ: {todayDate}
+          <div className="absolute top-0 left-0 w-full h-full bg-[rgba(76,2,3,.3)] flex flex-col justify-center items-center">
+            <h4 className="relative bottom-4 sm:bottom-6 text-white text-lg font-semibold">
+              তারিখ: {todayDate}-(
+              {weekDay.map((day, index) => (
+                <span key={day._id}>{todayDayIndex === index && day.day}</span>
+              ))}
+              )
             </h4>
           </div>
         </div>
@@ -81,7 +92,7 @@ const Header = () => {
       {/* button */}
       <div className="relative bottom-6 grid grid-cols-2 gap-4">
         <div className="lg:col-span-1 bg-[rgb(234,141,142)] shadow-md py-3 rounded-md flex flex-col justify-center items-center">
-          <h2 className="text-lg font-semibold">সাহারী: ৫:২১</h2>
+          <h2 className="text-lg font-semibold">সেহরি শুরু: ৫:২১</h2>
         </div>
         <div className="lg:col-span-1 bg-[rgb(234,141,142)] shadow-md py-3 rounded-md flex flex-col justify-center items-center">
           <h2 className="text-lg font-semibold">ইফতার: ৫:২৯</h2>
