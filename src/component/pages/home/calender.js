@@ -19,18 +19,18 @@ const Calender = ({todayDate,monthIndex}) => {
               <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">
                 সেহরি শেষ
               </th>
-              <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">ফজর</th>
+              <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">ফজর শুরু</th>
               <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">
-                সূর্যোদয়
+                সূর্যোদয়ের সময়
               </th>
               <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">
-                জোহর
+                জোহর শুরু
               </th>
-              <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">আছর</th>
+              <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">আছর শুরু</th>
               <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">
-                মাগরিব, ইফতার
+                মাগরিব শুরু, ইফতার শুরু
               </th>
-              <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">এশা</th>
+              <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">এশা শুরু</th>
             </tr>
           </thead>
           <tbody className="cursor-pointer">
