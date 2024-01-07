@@ -1,103 +1,50 @@
-import Image from "next/image";
-import masjid from "@/assets/masjid.png";
-import sunset from "@/assets/sunset.jpg";
-import weekDay from "@/data/weekDayData";
 import yearData from "@/data/yearData";
+import Banner from "./banner";
+import HighlightTime from "./highlightTime";
 
 const namaz = [
   {
     _id: 1,
-    name: "ফজর",
+    name: "ফজর শুরু",
     time: "৫:২১",
   },
   {
     _id: 2,
-    name: "সূর্যোদয়",
+    name: "সূর্যোদয়ের সময়",
     time: "৬:৪২",
   },
   {
     _id: 3,
-    name: "জোহর",
+    name: "জোহর শুরু",
     time: "১২:০৮",
   },
   {
     _id: 4,
-    name: "আছর",
+    name: "আছর শুরু",
     time: "৩:৪৯",
   },
   {
     _id: 5,
-    name: "মাগরিব",
+    name: "মাগরিব শুরু",
     time: "৫:২৯",
   },
   {
     _id: 6,
-    name: "এশা",
+    name: "এশা শুরু",
     time: "৬:৪৮",
   },
 ];
 
-
-const Header = ({monthIndex}) => {
-  const todayDayIndex = new Date().getDay();
-  const todayDate="01-01-2024"
-  // const 
-  // console.log(todayDate);
-  const todayData=yearData?.months[monthIndex]?.monthData?.map(month=>month.date===todayDate);
-  // console.log(todayData);
+const Header = ({ monthIndex }) => {
+  const todayDate = new Date().toISOString().slice(0, 10).split("-").reverse().join("-");
+  const todayData = yearData?.months[monthIndex]?.monthData?.find(
+    (month) => month.date === todayDate
+  );
   return (
     <div className="mt-4">
-      {/* top side */}
-      <div className="rounded-lg overflow-hidden shadow-md">
-        <div className="py-2 px-4 flex items-center justify-between bg-[rgb(234,141,142)]">
-          <div className="flex items-center gap-2 text-xl">
-            <figure className="w-12 h-12 overflow-hidden bg-white rounded-full flex justify-center items-center">
-              <Image src={masjid} alt="masjid image" width={25} height={25} />
-            </figure>
-            নামাজের সময় সূচি
-          </div>
-          <h4 className="text-base font-semibold ">ঢাকার সময় অনুযায়ী</h4>
-        </div>
-        <div className="h-28 lg:h-48 relative overflow-hidden">
-          <Image
-            src={sunset}
-            alt="sunset image"
-            width={1200}
-            height={300}
-            className="w-full h-full"
-          />
-          <div className="absolute top-0 left-0 w-full h-full bg-[rgba(76,2,3,.3)] flex flex-col justify-center items-center">
-            <h4 className="relative bottom-4 sm:bottom-6 text-white text-lg font-semibold">
-              তারিখ: {todayDate}-(
-              {weekDay.map((day, index) => (
-                <span key={day._id}>{todayDayIndex === index && day.day}</span>
-              ))}
-              )
-            </h4>
-          </div>
-        </div>
-      </div>
-      {/* middle */}
-      <div className="relative bottom-10 px-6 lg:px-10 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-        {namaz.map((salat) => (
-          <div
-            key={salat._id}
-            className="lg:col-span-1 bg-[rgb(234,141,142)] shadow-md py-3 rounded-md flex flex-col justify-center items-center"
-          >
-            <h3 className="text-lg font-semibold">{salat.name}</h3>
-            <h2 className="text-2xl font-bold">{salat.time}</h2>
-          </div>
-        ))}
-      </div>
-      {/* button */}
-      <div className="relative bottom-6 grid grid-cols-2 gap-4">
-        <div className="lg:col-span-1 bg-[rgb(234,141,142)] shadow-md py-3 rounded-md flex flex-col justify-center items-center">
-          <h2 className="text-lg font-semibold">সেহরি শুরু: ৫:২১</h2>
-        </div>
-        <div className="lg:col-span-1 bg-[rgb(234,141,142)] shadow-md py-3 rounded-md flex flex-col justify-center items-center">
-          <h2 className="text-lg font-semibold">ইফতার: ৫:২৯</h2>
-        </div>
-      </div>
+      {/* Banner */}
+      <Banner todayDate={todayDate} />
+      <HighlightTime todayData={todayData} />
     </div>
   );
 };

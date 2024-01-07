@@ -8,27 +8,27 @@ export const useDateDate = () => {
                 time:"৫:১৯"
             },
             fazar:{
-                name: "ফজর",
+                name: "ফজর শুরু",
                 time: "৫:২৪"
             },
             sunrise:{
-                name: "সূর্যোদয়",
+                name: "সূর্যোদয়ের সময়",
                 time: "৬:৪১"
             },
             johor:{
-                name: "জোহর",
+                name: "জোহর শুরু",
                 time: "১২:০৬"
             },
             asor:{
-                name: "আছর",
+                name: "আছর শুরু",
                 time: "৩:৪৬"
             },
             magrib:{
-                name: "মাগরিব",
+                name: "মাগরিব শুরু",
                 time: "৫:২৭"
             },
             esa:{
-                name: "এশা",
+                name: "এশা শুরু",
                 time: "৬:৪৫"
             }
         }
