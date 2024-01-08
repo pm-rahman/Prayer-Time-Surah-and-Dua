@@ -1,7 +1,5 @@
 import TimeDifferenceLeft from "./timeDifferenceLeft";
 import TimeDifferenceRight from "./timeDifferenceRight";
-import TimeDifferenceTable from "./timeDifferenceTable";
-import TimeDifferenceTitle from "./timeDifferenceTitle";
 
 const TimeDifference = () => {
   return (
