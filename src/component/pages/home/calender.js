@@ -27,7 +27,7 @@ const Calender = ({todayDate,monthIndex}) => {
                 জোহর শুরু
               </th>
               <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">আছর শুরু</th>
-              <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">
+              <th className="w-fit py-1 px-2 border border-[rgba(76,2,3,.2)]">
                 মাগরিব শুরু, ইফতার শুরু
               </th>
               <th className="py-1 px-2 border border-[rgba(76,2,3,.2)]">এশা শুরু</th>

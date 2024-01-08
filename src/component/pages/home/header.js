@@ -41,7 +41,7 @@ const Header = ({ monthIndex }) => {
     (month) => month.date === todayDate
   );
   return (
-    <div className="mt-4">
+    <div id="time-schedule" className="mt-4">
       {/* Banner */}
       <Banner todayDate={todayDate} />
       <HighlightTime todayData={todayData} />

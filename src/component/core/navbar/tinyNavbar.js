@@ -1,12 +1,7 @@
 "use client";
-import homeDark from "@/assets/icons/home-dark.png";
-import addDocDark from "@/assets/icons/add-doc-dark.png";
-import editDocDark from "@/assets/icons/edit-doc-dark.png";
 import { useState } from "react";
 import ActiveLink from "../activeLink";
-import GoogleIcon from "@/component/icons/google-icon";
 import TinyScreenBar from "./tinyScreenBar";
-import Image from "next/image";
 
 const TinyNavbar = ({ user }) => {
   const [isNavbarShow, setIsNavbarShow] = useState(false);
@@ -28,43 +23,17 @@ const TinyNavbar = ({ user }) => {
         <div
           className={`bg-[#f9ecec] text-slate-900 border-2 border-[#4C0203] flex flex-col items-end w-1/2 h-full py-2 px-3`}
         >
-          <ul className="flex flex-col gap-[1px] items-end">
+          <ul className="flex gap-5">
             <li>
-              <ActiveLink href="/">
-                <Image src={homeDark} height={18} width={18} alt="home icons" />
-                Home
-              </ActiveLink>
+              <ActiveLink href="#nav-bar">হোম</ActiveLink>
             </li>
-            {user && (
-              <>
-                <li>
-                  <ActiveLink href="/add-month-schedule">
-                    <Image
-                      src={addDocDark}
-                      height={18}
-                      width={18}
-                      alt="home icons"
-                    />
-                    Add Schedule
-                  </ActiveLink>
-                </li>
-                <li>
-                  <ActiveLink href="/update-month-schedule">
-                    <Image
-                      src={editDocDark}
-                      height={18}
-                      width={18}
-                      alt="home icons"
-                    />
-                    Update Schedule
-                  </ActiveLink>
-                </li>
-              </>
-            )}
+            <li>
+              <ActiveLink href="#time-schedule">সময় সূচি</ActiveLink>
+            </li>
+            <li>
+              <ActiveLink href="#time-difference">সময়ের পাথক্য</ActiveLink>
+            </li>
           </ul>
-          <div className="w-full flex justify-end pb-1 gap-1 items-center cursor-pointer hover:tracking-wide border-b border-[#4C0203]">
-            <GoogleIcon /> Login
-          </div>
         </div>
       </div>
     </div>
