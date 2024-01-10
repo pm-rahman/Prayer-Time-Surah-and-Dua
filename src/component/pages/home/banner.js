@@ -7,14 +7,14 @@ const Banner = ({ todayDate }) => {
   const todayDayIndex = new Date().getDay();
   return (
     <div className="rounded-lg overflow-hidden shadow-md">
-      <div className="py-2 px-4 flex items-center justify-between bg-[rgb(234,141,142)]">
+      <div className="py-2 px-4 flex items-center justify-between bg-[rgb(255,183,185)]">
         <div className="flex items-center gap-2 text-xl">
-          <figure className="w-12 h-12 overflow-hidden bg-white rounded-full flex justify-center items-center">
+          <figure className="w-11 h-11 overflow-hidden bg-white rounded-full flex justify-center items-center">
             <Image src={masjid} alt="masjid image" width={25} height={25} />
           </figure>
           নামাজের সময় সূচি
         </div>
-        <h4 className="text-base font-semibold ">ঢাকার সময় অনুযায়ী</h4>
+        <h4 className=" text-base font-semibold ">ঢাকার সময় অনুযায়ী</h4>
       </div>
       <div className="h-28 lg:h-48 relative overflow-hidden">
         <Image
