@@ -13,13 +13,10 @@ const Navbar = () => {
           <>
             <Link href="/" className="flex items-center">
               <Image src={logo} width={50} height={50} alt="logo image" />
-              <span className="text-xl relative top-[1px]">WEBSITE NAME</span>
+              <span className="text-base sm:text-xl font-semibold relative top-[1px]">Prayer Time Surah and Dua</span>
             </Link>
           </>
-          {/* <h4 className="text-base font-semibold">ঢাকার সময় অনুযায়ী</h4> */}
-          {/*  large navbar */}
           <LargeNav/>
-
           {/* tiny navbar */}
           <TinyNavbar logo={logo} />
         </div>

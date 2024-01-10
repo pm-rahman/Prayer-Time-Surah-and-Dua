@@ -1,5 +1,6 @@
-import TimeDifferenceLeft from "./timeDifferenceLeft";
-import TimeDifferenceRight from "./timeDifferenceRight";
+import TimeDifferenceContent from "./timeDifferenceContent";
+import { moreTime } from "@/data/timeDifferenceList";
+import { lessTime } from "@/data/timeDifferenceList";
 
 const TimeDifference = () => {
   return (
@@ -8,9 +9,15 @@ const TimeDifference = () => {
         ইসলামিক ফাউন্ডেশন বাংলাদেশ কর্তৃক নির্ধারিত সময়।
       </h3>
 
-      <div className="col-span-4 md:col-span-8 grid grid-cols-4 md:grid-cols-8">
-        <TimeDifferenceLeft />
-        <TimeDifferenceRight />
+      <div className="flex flex-col gap-4 mt-5">
+        <TimeDifferenceContent
+          title={"ঢাকার সময় হতে বাড়াতে হবে।"}
+          time={moreTime}
+        />
+        <TimeDifferenceContent
+          title={"ঢাকার সময় হতে কমাতে হবে।"}
+          time={lessTime}
+        />
       </div>
     </div>
   );
