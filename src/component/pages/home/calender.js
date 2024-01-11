@@ -5,7 +5,7 @@ import CalenderTitle from "./calenderTitle";
 
 const Calender = ({ todayDate, monthIndex }) => {
   return (
-    <>
+    <div className="relative sm:bottom-9">
       {/* current month */}
       <CalenderTitle monthIndex={monthIndex} />
 
@@ -41,7 +41,7 @@ const Calender = ({ todayDate, monthIndex }) => {
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   );
 };
 
