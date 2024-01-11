@@ -16,7 +16,7 @@ const Banner = ({ todayDate }) => {
         </div>
         <h4 className=" text-base font-semibold ">ঢাকার সময় অনুযায়ী</h4>
       </div>
-      <div className="h-28 lg:h-48 relative overflow-hidden">
+      <div className="h-28 lg:h-auto relative overflow-hidden">
         <Image
           src={sunset}
           alt="sunset image"
@@ -25,7 +25,7 @@ const Banner = ({ todayDate }) => {
           className="w-full h-full"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[rgba(76,2,3,.3)] flex flex-col justify-center items-center">
-          <h4 className="relative bottom-4 sm:bottom-6 text-white text-lg font-semibold">
+          <h4 className="backdrop-brightness-75 relative px-4 py-1 rounded sm:bottom-6 text-white text-lg font-semibold">
             তারিখ: {todayDate}-(
             {weekDay.map((day, index) => (
               <span key={day._id}>{todayDayIndex === index && day.day}</span>
