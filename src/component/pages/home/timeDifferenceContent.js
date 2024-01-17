@@ -1,4 +1,3 @@
-import { moreTime } from "@/data/timeDifferenceList";
 import React from "react";
 
 const TimeDifferenceContent = ({title,time}) => {

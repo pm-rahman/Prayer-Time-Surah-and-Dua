@@ -1,9 +1,13 @@
+"use client"
 import yearData from "@/data/yearData";
 import SingleCalender from "./singleCalender";
 import CalenderHeader from "./calenderHeader";
 import CalenderTitle from "./calenderTitle";
+import { useContext } from "react";
+import { TimeContext } from "@/context/TimeProvider";
 
-const Calender = ({ todayDate, monthIndex }) => {
+const Calender = () => {
+  const { monthIndex, todayDate } = useContext(TimeContext);
   return (
     <div className="relative sm:bottom-9">
       {/* current month */}

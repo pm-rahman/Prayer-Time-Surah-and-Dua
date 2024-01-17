@@ -1,10 +1,12 @@
+"use client";
 import Image from "next/image";
 import masjid from "@/assets/masjid.png";
 import sunset from "@/assets/sunset.jpg";
-import weekDay from "@/data/weekDayData";
+import { useContext } from "react";
+import { TimeContext } from "@/context/TimeProvider";
 
-const Banner = ({ todayDate }) => {
-  const todayDayIndex = new Date().getDay();
+const Banner = () => {
+  const { todayDate, dayName } = useContext(TimeContext);
   return (
     <div className="rounded-lg overflow-hidden shadow-md">
       <div className="py-2 px-4 flex items-center justify-between bg-[rgb(255,183,185)]">
@@ -25,12 +27,8 @@ const Banner = ({ todayDate }) => {
           className="w-full h-full"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[rgba(76,2,3,.3)] flex flex-col justify-center items-center">
-          <h4 className="backdrop-brightness-75 relative px-4 py-1 rounded sm:bottom-6 text-white text-lg font-semibold">
-            তারিখ: {todayDate} (
-            {weekDay.map((day, index) => (
-              <span key={day._id}>{todayDayIndex === index && day.day}</span>
-            ))}
-            )
+          <h4 className="backdrop-brightness-50 relative px-5 py-2 rounded sm:bottom-6 text-white text-lg font-semibold">
+            তারিখ: {todayDate}<span>{dayName ?`-(${dayName})` : ""}</span>
           </h4>
         </div>
       </div>

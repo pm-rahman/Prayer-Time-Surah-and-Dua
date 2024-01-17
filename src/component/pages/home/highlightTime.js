@@ -1,9 +1,11 @@
-import React from "react";
+"use client";
+import React, { useContext } from "react";
 import HighlightTimeTop from "./highlightTimeTop";
 import HighlightTimeBottom from "./highlightTimeBottom";
+import { TimeContext } from "@/context/TimeProvider";
 
-const HighlightTime = ({ todayData }) => {
-  const timeSchedule = todayData?.timeSchedule;
+const HighlightTime = () => {
+  const { timeSchedule } = useContext(TimeContext);
   return (
     <div className="sm:relative sm:mt-0 bottom-24 sm:bg-white sm:p-5 lg:p-7 rounded-lg sm:shadow-lg">
       {/* top */}
