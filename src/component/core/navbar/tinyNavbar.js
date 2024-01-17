@@ -11,17 +11,16 @@ const TinyNavbar = () => {
 
       {/* menu */}
       <div
-        onClick={() => setIsNavbarShow((item) => !item)}
         className={`
-        transition-all duration-500 ease-in-out origin-right
-        absolute z-50 w-screen h-screen overflow-hidden top-0 right-0 
-        flex flex-col items-end backdrop-brightness-75 bg-[rgba(76,2,3,.3)]
-          ${!isNavbarShow ? "scale-x-0" : "scale-x-1"}
-        `}
+        fixed z-[999]
+        ${
+          isNavbarShow
+            ? "visible inset-0 bg-gray-500/60 flex justify-end"
+            : "invisible hidden"
+        }`}
+        onClick={() => setIsNavbarShow((item) => !item)}
       >
-        <div
-          className={`bg-[#eed5d5] text-slate-900 border border-r-0 border-[#4C0203] w-1/2 h-full`}
-        >
+        <div className={`bg-[#eed5d5] text-slate-900 border border-r-0 border-[#4C0203] w-1/2 h-full`}>
           <ul className="flex-col gap-5 mt-4">
             <li className="">
               <ActiveLink

@@ -1,7 +1,7 @@
 const januaryData=[
         {
-            date:"01-01-2024",
-            banglaDate:"০১-০১-২০২৪",
+            date:"01-01",
+            banglaDate:"০১-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -34,8 +34,8 @@ const januaryData=[
             }
         },
         {
-            date:"02-01-2024",
-            banglaDate:"০২-০১-২০২৪",
+            date:"02-01",
+            banglaDate:"০২-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহেরি শেষ",
@@ -68,8 +68,8 @@ const januaryData=[
             }
         },
         {
-            date:"03-01-2024",
-            banglaDate:"০৩-০১-২০২৪",
+            date:"03-01",
+            banglaDate:"০৩-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -102,8 +102,8 @@ const januaryData=[
             }
         },
         {
-            date:"04-01-2024",
-            banglaDate:"০৪-০১-২০২৪",
+            date:"04-01",
+            banglaDate:"০৪-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -136,8 +136,8 @@ const januaryData=[
             }
         },
         {
-            date:"05-01-2024",
-            banglaDate:"০৫-০১-২০২৪",
+            date:"05-01",
+            banglaDate:"০৫-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -170,8 +170,8 @@ const januaryData=[
             }
         },
         {
-            date:"06-01-2024",
-            banglaDate:"০৬-০১-২০২৪",
+            date:"06-01",
+            banglaDate:"০৬-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -204,8 +204,8 @@ const januaryData=[
             }
         },
         {
-            date:"07-01-2024",
-            banglaDate:"০৭-০১-২০২৪",
+            date:"07-01",
+            banglaDate:"০৭-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -238,8 +238,8 @@ const januaryData=[
             }
         },
         {
-            date:"08-01-2024",
-            banglaDate:"০৮-০১-২০২৪",
+            date:"08-01",
+            banglaDate:"০৮-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -272,8 +272,8 @@ const januaryData=[
             }
         },
         {
-            date:"09-01-2024",
-            banglaDate:"০৯-০১-২০২৪",
+            date:"09-01",
+            banglaDate:"০৯-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -306,8 +306,8 @@ const januaryData=[
             }
         },
         {
-            date:"10-01-2024",
-            banglaDate:"১০-০১-২০২৪",
+            date:"10-01",
+            banglaDate:"১০-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -340,8 +340,8 @@ const januaryData=[
             }
         },
         {
-            date:"11-01-2024",
-            banglaDate:"১১-০১-২০২৪",
+            date:"11-01",
+            banglaDate:"১১-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -374,8 +374,8 @@ const januaryData=[
             }
         },
         {
-            date:"12-01-2024",
-            banglaDate:"১২-০১-২০২৪",
+            date:"12-01",
+            banglaDate:"১২-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -408,8 +408,8 @@ const januaryData=[
             }
         },
         {
-            date:"13-01-2024",
-            banglaDate:"১৩-০১-২০২৪",
+            date:"13-01",
+            banglaDate:"১৩-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -442,8 +442,8 @@ const januaryData=[
             }
         },
         {
-            date:"14-01-2024",
-            banglaDate:"১৪-০১-২০২৪",
+            date:"14-01",
+            banglaDate:"১৪-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -476,8 +476,8 @@ const januaryData=[
             }
         },
         {
-            date:"15-01-2024",
-            banglaDate:"১৫-০১-২০২৪",
+            date:"15-01",
+            banglaDate:"১৫-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -510,8 +510,8 @@ const januaryData=[
             }
         },
         {
-            date:"16-01-2024",
-            banglaDate:"১৬-০১-২০২৪",
+            date:"16-01",
+            banglaDate:"১৬-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -544,8 +544,8 @@ const januaryData=[
             }
         },
         {
-            date:"17-01-2024",
-            banglaDate:"১৭-০১-২০২৪",
+            date:"17-01",
+            banglaDate:"১৭-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -578,8 +578,8 @@ const januaryData=[
             }
         },
         {
-            date:"18-01-2024",
-            banglaDate:"১৮-০১-২০২৪",
+            date:"18-01",
+            banglaDate:"১৮-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -612,8 +612,8 @@ const januaryData=[
             }
         },
         {
-            date:"19-01-2024",
-            banglaDate:"১৯-০১-২০২৪",
+            date:"19-01",
+            banglaDate:"১৯-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -646,8 +646,8 @@ const januaryData=[
             }
         },
         {
-            date:"20-01-2024",
-            banglaDate:"২০-০১-২০২৪",
+            date:"20-01",
+            banglaDate:"২০-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -680,8 +680,8 @@ const januaryData=[
             }
         },
         {
-            date:"21-01-2024",
-            banglaDate:"২১-০১-২০২৪",
+            date:"21-01",
+            banglaDate:"২১-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -714,8 +714,8 @@ const januaryData=[
             }
         },
         {
-            date:"22-01-2024",
-            banglaDate:"২২-০১-২০২৪",
+            date:"22-01",
+            banglaDate:"২২-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -748,8 +748,8 @@ const januaryData=[
             }
         },
         {
-            date:"23-01-2024",
-            banglaDate:"২৩-০১-২০২৪",
+            date:"23-01",
+            banglaDate:"২৩-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -782,8 +782,8 @@ const januaryData=[
             }
         },
         {
-            date:"24-01-2024",
-            banglaDate:"২৪-০১-২০২৪",
+            date:"24-01",
+            banglaDate:"২৪-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -816,8 +816,8 @@ const januaryData=[
             }
         },
         {
-            date:"25-01-2024",
-            banglaDate:"২৫-০১-২০২৪",
+            date:"25-01",
+            banglaDate:"২৫-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -850,8 +850,8 @@ const januaryData=[
             }
         },
         {
-            date:"26-01-2024",
-            banglaDate:"২৬-০১-২০২৪",
+            date:"26-01",
+            banglaDate:"২৬-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -884,8 +884,8 @@ const januaryData=[
             }
         },
         {
-            date:"27-01-2024",
-            banglaDate:"২৭-০১-২০২৪",
+            date:"27-01",
+            banglaDate:"২৭-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -918,8 +918,8 @@ const januaryData=[
             }
         },
         {
-            date:"28-01-2024",
-            banglaDate:"২৮-০১-২০২৪",
+            date:"28-01",
+            banglaDate:"২৮-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -952,8 +952,8 @@ const januaryData=[
             }
         },
         {
-            date:"29-01-2024",
-            banglaDate:"২৯-০১-২০২৪",
+            date:"29-01",
+            banglaDate:"২৯-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -986,8 +986,8 @@ const januaryData=[
             }
         },
         {
-            date:"30-01-2024",
-            banglaDate:"৩০-০১-২০২৪",
+            date:"30-01",
+            banglaDate:"৩০-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",
@@ -1020,8 +1020,8 @@ const januaryData=[
             }
         },
         {
-            date:"31-01-2024",
-            banglaDate:"৩১-০১-২০২৪",
+            date:"31-01",
+            banglaDate:"৩১-০১",
             timeSchedule:{
                 shari:{
                     name:"সেহরি শেষ",

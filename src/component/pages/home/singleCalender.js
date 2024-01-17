@@ -10,7 +10,7 @@ const SingleCalender = ({month,todayDate}) => {
         magrib,
         esa
     }=month.timeSchedule;
-    const date =month.banglaDate.split("-").slice(0,2).join("-");
+    const date =month.banglaDate.split("-").slice(0,2).join("-")
   return (
     <tr
       className={`${

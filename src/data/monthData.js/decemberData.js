@@ -1,7 +1,7 @@
 const decemberData = [
   {
-    date: "01-12-2024",
-    banglaDate: "০১-১২-২০২৪",
+    date: "01-12",
+    banglaDate: "০১-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -35,8 +35,8 @@ const decemberData = [
   },
 
   {
-    date: "02-12-2024",
-    banglaDate: "০২-১২-২০২৪",
+    date: "02-12",
+    banglaDate: "০২-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -70,8 +70,8 @@ const decemberData = [
   },
 
   {
-    date: "03-12-2024",
-    banglaDate: "০৩-১২-২০২৪",
+    date: "03-12",
+    banglaDate: "০৩-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -105,8 +105,8 @@ const decemberData = [
   },
 
   {
-    date: "04-12-2024",
-    banglaDate: "০৪-১২-২০২৪",
+    date: "04-12",
+    banglaDate: "০৪-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -140,8 +140,8 @@ const decemberData = [
   },
 
   {
-    date: "05-12-2024",
-    banglaDate: "০৫-১২-২০২৪",
+    date: "05-12",
+    banglaDate: "০৫-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -175,8 +175,8 @@ const decemberData = [
   },
 
   {
-    date: "06-12-2024",
-    banglaDate: "০৬-১২-২০২৪",
+    date: "06-12",
+    banglaDate: "০৬-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -210,8 +210,8 @@ const decemberData = [
   },
 
   {
-    date: "07-12-2024",
-    banglaDate: "০৭-১২-২০২৪",
+    date: "07-12",
+    banglaDate: "০৭-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -245,8 +245,8 @@ const decemberData = [
   },
 
   {
-    date: "08-12-2024",
-    banglaDate: "০৮-১২-২০২৪",
+    date: "08-12",
+    banglaDate: "০৮-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -280,8 +280,8 @@ const decemberData = [
   },
 
   {
-    date: "09-12-2024",
-    banglaDate: "০৯-১২-২০২৪",
+    date: "09-12",
+    banglaDate: "০৯-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -315,8 +315,8 @@ const decemberData = [
   },
 
   {
-    date: "10-12-2024",
-    banglaDate: "১০-১২-২০২৪",
+    date: "10-12",
+    banglaDate: "১০-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -350,8 +350,8 @@ const decemberData = [
   },
 
   {
-    date: "11-12-2024",
-    banglaDate: "১১-১২-২০২৪",
+    date: "11-12",
+    banglaDate: "১১-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -385,8 +385,8 @@ const decemberData = [
   },
 
   {
-    date: "12-12-2024",
-    banglaDate: "১২-১২-২০২৪",
+    date: "12-12",
+    banglaDate: "১২-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -420,8 +420,8 @@ const decemberData = [
   },
 
   {
-    date: "13-12-2024",
-    banglaDate: "১৩-১২-২০২৪",
+    date: "13-12",
+    banglaDate: "১৩-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -455,8 +455,8 @@ const decemberData = [
   },
 
   {
-    date: "14-12-2024",
-    banglaDate: "১৪-১২-২০২৪",
+    date: "14-12",
+    banglaDate: "১৪-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -490,8 +490,8 @@ const decemberData = [
   },
 
   {
-    date: "15-12-2024",
-    banglaDate: "১৫-১২-২০২৪",
+    date: "15-12",
+    banglaDate: "১৫-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -525,8 +525,8 @@ const decemberData = [
   },
 
   {
-    date: "16-12-2024",
-    banglaDate: "১৬-১২-২০২৪",
+    date: "16-12",
+    banglaDate: "১৬-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -560,8 +560,8 @@ const decemberData = [
   },
 
   {
-    date: "17-12-2024",
-    banglaDate: "১৭-১২-২০২৪",
+    date: "17-12",
+    banglaDate: "১৭-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -595,8 +595,8 @@ const decemberData = [
   },
 
   {
-    date: "18-12-2024",
-    banglaDate: "১৮-১২-২০২৪",
+    date: "18-12",
+    banglaDate: "১৮-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -630,8 +630,8 @@ const decemberData = [
   },
 
   {
-    date: "19-12-2024",
-    banglaDate: "১৯-১২-২০২৪",
+    date: "19-12",
+    banglaDate: "১৯-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -665,8 +665,8 @@ const decemberData = [
   },
 
   {
-    date: "20-12-2024",
-    banglaDate: "২০-১২-২০২৪",
+    date: "20-12",
+    banglaDate: "২০-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -700,8 +700,8 @@ const decemberData = [
   },
 
   {
-    date: "21-12-2024",
-    banglaDate: "২১-১২-২০২৪",
+    date: "21-12",
+    banglaDate: "২১-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -735,8 +735,8 @@ const decemberData = [
   },
 
   {
-    date: "22-12-2024",
-    banglaDate: "২২-১২-২০২৪",
+    date: "22-12",
+    banglaDate: "২২-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -770,8 +770,8 @@ const decemberData = [
   },
 
   {
-    date: "23-12-2024",
-    banglaDate: "২৩-১২-২০২৪",
+    date: "23-12",
+    banglaDate: "২৩-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -805,8 +805,8 @@ const decemberData = [
   },
 
   {
-    date: "24-12-2024",
-    banglaDate: "২৪-১২-২০২৪",
+    date: "24-12",
+    banglaDate: "২৪-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -840,8 +840,8 @@ const decemberData = [
   },
 
   {
-    date: "25-12-2024",
-    banglaDate: "২৫-১২-২০২৪",
+    date: "25-12",
+    banglaDate: "২৫-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -875,8 +875,8 @@ const decemberData = [
   },
 
   {
-    date: "26-12-2024",
-    banglaDate: "২৬-১২-২০২৪",
+    date: "26-12",
+    banglaDate: "২৬-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -910,8 +910,8 @@ const decemberData = [
   },
 
   {
-    date: "27-12-2024",
-    banglaDate: "২৭-১২-২০২৪",
+    date: "27-12",
+    banglaDate: "২৭-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -945,8 +945,8 @@ const decemberData = [
   },
 
   {
-    date: "28-12-2024",
-    banglaDate: "২৮-১২-২০২৪",
+    date: "28-12",
+    banglaDate: "২৮-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -980,8 +980,8 @@ const decemberData = [
   },
 
   {
-    date: "29-12-2024",
-    banglaDate: "২9-১২-২০২৪",
+    date: "29-12",
+    banglaDate: "২9-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -1015,8 +1015,8 @@ const decemberData = [
   },
 
   {
-    date: "30-12-2024",
-    banglaDate: "৩০-১২-২০২৪",
+    date: "30-12",
+    banglaDate: "৩০-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
@@ -1050,8 +1050,8 @@ const decemberData = [
   },
 
   {
-    date: "31-12-2024",
-    banglaDate: "৩১-১২-২০২৪",
+    date: "31-12",
+    banglaDate: "৩১-১২",
     timeSchedule: {
       shari: {
         name: "সেহরি শেষ",
