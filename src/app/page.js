@@ -1,19 +1,10 @@
 import Calender from "@/component/pages/home/calender";
-import CalenderHeader from "@/component/pages/home/calenderHeader";
-import CalenderTitle from "@/component/pages/home/calenderTitle";
 import Header from "@/component/pages/home/header";
 import TagLine from "@/component/pages/home/tagLine";
 import TimeDifference from "@/component/pages/home/timeDifference";
 import Link from "next/link";
 
 export default function Home() {
-  const todayDate = new Date()
-    ?.toISOString()
-    ?.slice(5, 10)
-    ?.split("-")
-    ?.reverse()
-    ?.join("-");
-  const monthIndex = new Date()?.getMonth();
   return (
     <div className="mt-10 md:mt-24 border-t border-[rgba(76,2,3,.2)] container">
       <TagLine />
@@ -22,8 +13,8 @@ export default function Home() {
           বি:দ্র: ঢাকার সময় হতে কতক্ষন বাড়াতে হবে এবং ঢাকার সময় হতে কমাতে হবে।, চাপ ‍দিয়ে জেনে নিন।
         </Link>
       </div>
-      <Header todayDate={todayDate} monthIndex={monthIndex} />
-      <Calender todayDate={todayDate} monthIndex={monthIndex} />
+      <Header/>
+      <Calender/>
       <TimeDifference />
     </div>
   );

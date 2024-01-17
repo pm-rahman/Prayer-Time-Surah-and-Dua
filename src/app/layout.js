@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.scss";
 import Navbar from "@/component/core/navbar/navbar";
 import Footer from "@/component/core/footer";
+import TimeProvider from "@/context/TimeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,10 +14,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`min-h-screen flex flex-col bg-[rgba(76,2,3,.1)] ${inter.className}`}>
+      <body
+        className={`min-h-screen flex flex-col bg-[rgba(76,2,3,.1)] ${inter.className}`}
+      >
         <Navbar />
-        <div>{children}</div>
-        <Footer/>
+        <TimeProvider>{children}</TimeProvider>
+        <Footer />
       </body>
     </html>
   );
