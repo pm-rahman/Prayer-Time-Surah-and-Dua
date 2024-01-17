@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Home() {
   const todayDate = new Date()
     ?.toISOString()
-    ?.slice(0, 10)
+    ?.slice(5, 10)
     ?.split("-")
     ?.reverse()
     ?.join("-");
@@ -19,12 +19,10 @@ export default function Home() {
       <TagLine />
       <div className="pt-3">
         <Link href="#time-difference" className="underline text-blue-600">
-          বি:দ্র: ঢাকার সময় হতে কতক্ষন বাড়াতে হবে, চাপ ‍দিয়ে জেনে নিন।
+          বি:দ্র: ঢাকার সময় হতে কতক্ষন বাড়াতে হবে এবং ঢাকার সময় হতে কমাতে হবে।, চাপ ‍দিয়ে জেনে নিন।
         </Link>
       </div>
       <Header todayDate={todayDate} monthIndex={monthIndex} />
-      {/* <CalenderTitle monthIndex={monthIndex} />
-      <CalenderHeader /> */}
       <Calender todayDate={todayDate} monthIndex={monthIndex} />
       <TimeDifference />
     </div>

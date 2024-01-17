@@ -26,7 +26,7 @@ const Banner = ({ todayDate }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[rgba(76,2,3,.3)] flex flex-col justify-center items-center">
           <h4 className="backdrop-brightness-75 relative px-4 py-1 rounded sm:bottom-6 text-white text-lg font-semibold">
-            তারিখ: {todayDate}-(
+            তারিখ: {todayDate} (
             {weekDay.map((day, index) => (
               <span key={day._id}>{todayDayIndex === index && day.day}</span>
             ))}
