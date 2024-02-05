@@ -9,16 +9,18 @@ const Banner = () => {
   const { todayDate, dayName } = useContext(TimeContext);
   return (
     <div className="rounded-lg overflow-hidden shadow-md">
-      <div className="py-2 px-4 flex items-center justify-between bg-[rgb(255,183,185)]">
-        <div className="flex items-center gap-2 text-xl">
+      <div className="py-2 px-4 flex flex-col sm:flex-row gap-3 items-center justify-between bg-[rgb(255,183,185)]">
+          <div className="flex-1">
+            <div className="flex items-center gap-3">
           <figure className="w-11 h-11 overflow-hidden bg-white rounded-full flex justify-center items-center">
             <Image src={masjid} alt="masjid image" width={25} height={25} />
           </figure>
-          নামাজের সময় সূচি
-        </div>
-        <h4 className=" text-base font-semibold ">ঢাকার সময় অনুযায়ী</h4>
+          <span className="text-xl">নামাজের সময় সূচি <h4 className="sm:hidden text-base font-semibold ">ঢাকার সময় অনুযায়ী</h4></span>
+            </div>
+          </div>
+        <h4 className="hidden sm:block text-base font-semibold ">ঢাকার সময় অনুযায়ী</h4>
       </div>
-      <div className="h-28 lg:h-auto relative overflow-hidden">
+      <div className="h-auto relative overflow-hidden">
         <Image
           src={sunset}
           alt="sunset image"
