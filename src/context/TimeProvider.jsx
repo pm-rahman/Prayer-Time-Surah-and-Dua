@@ -12,25 +12,35 @@ const TimeProvider = ({ children }) => {
   const [dayName, setDayName] = useState("");
 
   useEffect(() => {
-    const todayDayIndex = new Date().getDay();
-    const todayDate = new Date()
-      ?.toISOString()
-      ?.slice(5, 10)
-      ?.split("-")
-      ?.reverse()
-      ?.join("-");
-    const monthIndex = new Date()?.getMonth();
+    const currentDate= new Date();
+
+    const todayDayIndex = new Date(currentDate.toLocaleString('en-US',{timeZone:'Asia/Dhaka'})).getDay();
+
+    const todayDate = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'Asia/Dhaka',
+      month: '2-digit',
+      day: '2-digit',
+      hour12: true,
+    }).format(currentDate).split('/').reverse().join('-');
+
+    const monthIndex = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'Asia/Dhaka',
+      month: 'numeric',
+      hour12: true,
+    }).format(currentDate).split('/').reverse().join('-')-1;
     const dayName = weekDay.find(
-      (day, index) => todayDayIndex === index && day.day
+      (day, index) => (todayDayIndex===index&&day?.day)
     );
+
     const todayData = yearData?.months[monthIndex]?.monthData.find(
       (day) => day.date === todayDate
-    );
-    // values
+      );
+      
+    // set values
     setTodayDayIndex(todayDayIndex);
     setTodayDate(todayDate);
     setMonthIndex(monthIndex);
-    setDayName(dayName.day)
+    setDayName(dayName?.day)
     setTodayData(todayData);
   }, []);
 

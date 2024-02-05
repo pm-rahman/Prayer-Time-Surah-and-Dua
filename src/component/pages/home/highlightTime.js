@@ -7,7 +7,7 @@ import { TimeContext } from "@/context/TimeProvider";
 const HighlightTime = () => {
   const { timeSchedule } = useContext(TimeContext);
   return (
-    <div className="sm:relative sm:mt-0 bottom-24 sm:bg-white sm:p-5 lg:p-7 rounded-lg sm:shadow-lg">
+    <div className="lg:relative sm:mt-0 bottom-24 sm:bg-white sm:p-5 lg:p-7 rounded-lg sm:shadow-lg">
       {/* top */}
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-4">
         <HighlightTimeTop stage={timeSchedule?.shari} />
