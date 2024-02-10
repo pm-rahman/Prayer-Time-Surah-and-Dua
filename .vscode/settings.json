@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "WillLuke.nextjs.addTypesOnSave": true,
+  "WillLuke.nextjs.hasPrompted": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": false
+}

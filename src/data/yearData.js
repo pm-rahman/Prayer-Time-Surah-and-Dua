@@ -2,6 +2,8 @@ import AprilData from "./monthData.js/aprilData";
 import decemberData from "./monthData.js/decemberData";
 import februaryData from "./monthData.js/februaryData";
 import januaryData from "./monthData.js/januaryData";
+import JullyData from "./monthData.js/jullyData";
+import JunData from "./monthData.js/junData";
 import MarchData from "./monthData.js/marchData";
 import MayData from "./monthData.js/mayData";
 
@@ -33,6 +35,16 @@ const yearData = {
       _id:5,
       monthName:"মে",
       monthData:MayData,
+    },
+    {
+      _id:6,
+      monthName:"জুন",
+      monthData:JunData,
+    },
+    {
+      _id:7,
+      monthName:"জুলাই",
+      monthData:JullyData,
     },
     {
       _id: 12,
