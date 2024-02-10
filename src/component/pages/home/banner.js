@@ -30,7 +30,7 @@ const Banner = () => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[rgba(76,2,3,.3)] flex flex-col justify-center items-center">
           <h4 className="backdrop-brightness-50 relative px-5 py-2 rounded sm:bottom-6 text-white text-lg font-semibold">
-            তারিখ: {todayDate}<span>{dayName ?`-(${dayName})` : ""}</span>
+            তারিখ: {todayDate}<span>{dayName ?` - { ${dayName} }` : ""}</span>
           </h4>
         </div>
       </div>

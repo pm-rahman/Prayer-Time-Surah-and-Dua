@@ -14,7 +14,7 @@ const Footer = () => {
         <Link href="/" className="flex items-center">
           <Image 
           src={logo} width={50} height={50} alt="logo image" />
-          <span className="text-xl font-semibold">Prayer Time Surah and Dua</span>
+          <span className="text-xl font-semibold capitalize">Prayer Time Surah and Dua</span>
         </Link>
         <h5 className="text-sm sm:text-base font-semibold">সম্পাদক: বাহাউদ্দিন</h5>
       </div>

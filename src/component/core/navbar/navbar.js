@@ -13,7 +13,7 @@ const Navbar = () => {
           <>
             <Link href="/" className="flex items-center">
               <Image src={logo} width={50} height={50} alt="logo image" />
-              <span className="text-base sm:text-xl font-semibold relative top-[1px]">Prayer Time Surah and Dua</span>
+              <span className="text-base capitalize sm:text-xl font-semibold relative">Prayer Time Surah and Dua</span>
             </Link>
           </>
           <LargeNav/>

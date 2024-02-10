@@ -2,18 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: Georgia, serif;
+  // font-family: Garamond, serif;
+}
+
 //
-*{
-  transition: ease-in-out .2s;
+* {
+  transition: ease-in-out 0.2s;
 }
 
 // variables
-$base-color:#4C0203;
-$base-rgb:rgb(76,2,3);
-
+$base-color: #4c0203;
+$base-rgb: rgb(76, 2, 3);
 
 /* loader */
-.loader{
+.loader {
   height: 35px;
   width: 35px;
   border-radius: 50%;
@@ -25,48 +29,46 @@ $base-rgb:rgb(76,2,3);
 }
 
 // normal css
-.table_content:hover{
-  background-color: rgba(76,2,3,.1);
+.table_content:hover {
+  background-color: rgba(76, 2, 3, 0.1);
 }
 
-
-
-@keyframes loader{ 
-  0%{
-      transform: rotate(0deg);
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
   }
-  100%{
-      transform: rotate(360deg);
+  100% {
+    transform: rotate(360deg);
   }
 }
 
 /* container */
-.container{
+.container {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (max-width:1500px) {
-  .container{
+@media screen and (max-width: 1500px) {
+  .container {
     width: 100%;
     padding-left: 3rem;
     padding-right: 3rem;
   }
 }
-@media screen and (max-width:1000px) {
-  .container{
+@media screen and (max-width: 1000px) {
+  .container {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
-@media screen and (max-width:700px) {
-  .container{
+@media screen and (max-width: 700px) {
+  .container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
-@media screen and (max-width:500px) {
-  .container{
+@media screen and (max-width: 500px) {
+  .container {
     padding-left: 1rem;
     padding-right: 1rem;
   }
