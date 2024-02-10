@@ -965,7 +965,7 @@ const MayData=[
             },
             sunrise:{
                 name: "সূর্যোদয়ের সময়",
-                time: "৫:১১"
+                time: "৫:১০"
             },
             johor:{
                 name: "জোহর শুরু",
@@ -999,7 +999,7 @@ const MayData=[
             },
             sunrise:{
                 name: "সূর্যোদয়ের সময়",
-                time: "৫:১১"
+                time: "৫:১০"
             },
             johor:{
                 name: "জোহর শুরু",
@@ -1033,7 +1033,7 @@ const MayData=[
             },
             sunrise:{
                 name: "সূর্যোদয়ের সময়",
-                time: "৫:১১"
+                time: "৫:১০"
             },
             johor:{
                 name: "জোহর শুরু",
@@ -1041,7 +1041,7 @@ const MayData=[
             },
             asor:{
                 name: "আছর শুরু",
-                time: "৪:৩৪"
+                time: "৪:৩৫"
             },
             magrib:{
                 name: "মাগরিব শুরু",
